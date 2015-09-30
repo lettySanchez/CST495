@@ -156,6 +156,8 @@
 		3BDE30741BA8AAB8001A43DD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Leticia Sanchez";
 				TargetAttributes = {
@@ -411,6 +413,7 @@
 				3BDE309D1BA8AAB9001A43DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BDE309E1BA8AAB9001A43DD /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +422,7 @@
 				3BDE30A01BA8AAB9001A43DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

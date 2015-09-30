@@ -42,6 +42,7 @@ class ViewController: UIViewController
         case "+": performOperation {$0 + $1}
         case "−": performOperation {$1 - $0}
         case "√": performOperation1 { sqrt($0) }
+            case "∏": appendDigit(M_PI)
         default:break
         }
     }
@@ -69,7 +70,7 @@ class ViewController: UIViewController
     @IBAction func enter() {
         userIsInTheMiddleOfTypingANumber = false
         operandStack.append(displayValue)
-        println("operandStack = \(operandStack)")
+        print("operandStack = \(operandStack)")
     }
     
     var displayValue: Double{
